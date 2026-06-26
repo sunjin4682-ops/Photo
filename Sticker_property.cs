@@ -19,13 +19,7 @@ namespace Photo
 
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
-            lb_
+            lb_stickerSize.Text = e.NewValue.ToString();
         }
-        private void hScrollBar2_Scroll(object sender, ScrollEventArgs e)
-        {
-            lb_stickerS
-        }
-
-
     }
 }
